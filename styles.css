@@ -1,0 +1,66 @@
+body {
+    background-color: #FFFFFF;
+    color: #111111;
+}
+
+div.card {
+    border: 1px solid #e5e5e5;
+    display: inline-block;
+    flex: 1;
+    height: 12rem;
+    margin: 1rem;
+    padding: 0.5em 1em 2em 1em;
+    width: 12rem;
+}
+
+div.card h2 {
+    width: 100%;
+}
+
+header {
+    align-items: center;
+    background-color: #111111;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+header div {
+    display: block;
+}
+
+span.highlight {
+    color: #990100;
+}
+
+span.job-role {
+    color: #5b5b5b;
+    display: block;
+}
+
+div#pitch-elevator {
+    background-color: #f5f5f5;
+    display: flex;
+    padding: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact a {
+    color: #990100;
+    border: 2px solid #990100;
+    font-size: 1.5rem;
+    padding: 5px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#contact a:hover {
+    color: #da0000;
+}
