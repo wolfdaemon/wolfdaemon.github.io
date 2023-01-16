@@ -1,6 +1,15 @@
+/* margin 0 and 8 respectively in the two body selectors allow for any element to not
+have a margin by applying "margin: 0" to any element, while the "margin: 8px" allows
+for all elements to have standard margins applied. */
 body {
     background-color: #FFFFFF;
     color: #111111;
+    margin: 0;
+}
+
+body>* {
+    /* default value of margin in CSS */
+    margin: 8px;
 }
 
 div.card {
@@ -24,6 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    margin: 0;
 }
 
 header div {
@@ -41,10 +51,17 @@ span.job-role {
 
 div#pitch-elevator {
     background-color: #f5f5f5;
+    border: 2px solid #e5e5e5;
     display: flex;
+    margin: 0 0 3.5rem 0;
     padding: 10rem;
     align-items: center;
     justify-content: center;
+}
+
+/* SEO determines we can't use more than one h1 on a page */
+.false-h1 {
+    font-size: 2em;
 }
 
 .wrapper {
